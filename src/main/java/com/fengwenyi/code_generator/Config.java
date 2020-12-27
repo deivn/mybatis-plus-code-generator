@@ -25,16 +25,16 @@ public class Config {
     public static final String PACKAGE_NAME_XML = "xml";
 
     /** 文件名后缀：Model */
-    public static final String FILE_NAME_MODEL = "%sEntity";
+    public static final String FILE_NAME_MODEL = "%s";
 
     /** 文件名后缀：Dao */
-    public static final String FILE_NAME_DAO = "I%sMapper";
+    public static final String FILE_NAME_DAO = "%sMapper";
 
     /** 文件名后缀：Mapper */
     public static final String FILE_NAME_XML = "%sMapper";
 
     /** MP开头，Service结尾 */
-    public static final String FILE_NAME_SERVICE = "MP%sRepository";
+    public static final String FILE_NAME_SERVICE = "%sRepository";
 
     /** 文件名后缀：ServiceImpl */
     public static final String FILE_NAME_SERVICE_IMPL = "%sRepositoryImpl";
@@ -50,14 +50,14 @@ public class Config {
     public static final String FIELD_VERSION_NAME = "version";
 
     /** 作者 */
-    public static final String AUTHOR = "Erwin Feng";
+    public static final String AUTHOR = "yitao";
 
     /** 生成文件的输出目录 */
     public static String projectPath = System.getProperty("user.dir");
 
     /** 输出目录 */
 //    public static final String outputDir = projectPath + "/src/main/java";
-    public static final String outputDir = "/Users/wenyifeng/Temp/code-generator";
+    public static final String outputDir = "C:\\projects\\mybatis-plus-code-generator\\src\\main\\java";
 
     /** 模板引擎。velocity / freemarker / beetl */
     public static final String TEMPLATE_ENGINE = "velocity";
